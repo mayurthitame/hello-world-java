@@ -27,9 +27,14 @@ public class HelloWorld {
 
 	}
 
+	private static final String getVersion() {
+		String version = "1.0";
+		return version;
+	}
+
 
 	public static String getName() {
-		String name = "Rushi Technologies Bangalore";
+		String name = "Rushi Technologies";
 		return name;
 	}
 
